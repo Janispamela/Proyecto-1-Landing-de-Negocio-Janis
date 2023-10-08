@@ -22,7 +22,7 @@
      "mechanism" : "SCRAM-SHA-1",
      "useManuallyVisibleDbs" : false,
      "userName" : "admin_artienda",
-     "userPasswordEncrypted" : "AwJ49iBIa2pyM1EUmA=="
+     "userPasswordEncrypted" : "AwL+cKbO7ez0tdeSHg=="
     }
    ],
    "defaultDatabase" : "myFirstDatabase",
@@ -62,10 +62,54 @@
     "usePemFile" : false
    },
    "uuid" : "{c0870535-7237-418f-9db0-527f457754cf}"
+  },
+  {
+   "connectionName" : "Amazon EC2 MongoDB Server",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : true,
+     "manuallyVisibleDbs" : "admin",
+     "mechanism" : "SCRAM-SHA-1",
+     "useManuallyVisibleDbs" : false,
+     "userName" : "ec2-admin",
+     "userPasswordEncrypted" : "AwJeg/ebv+KhvQ=="
+    }
+   ],
+   "defaultDatabase" : "",
+   "isReplicaSet" : false,
+   "serverHost" : "54.213.48.35",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : false,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : false,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{61730af7-f121-4c40-9fc0-26c7a66d9f54}"
   }
  ],
  "dbVersionsConnected" : [
-  "5.0.6"
+  "5.0.6",
+  "3.6.3"
  ],
  "debugMode" : false,
  "disableConnectionShortcuts" : false,

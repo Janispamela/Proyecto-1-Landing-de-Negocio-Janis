@@ -27,12 +27,14 @@ command
 commands
 completions
 config
+contributions
 create
 deps
 desc
 determine-rebottle-runners
 developer
 dispatch-build-bottle
+docs
 doctor
 dr
 edit
@@ -82,7 +84,6 @@ search
 services
 sh
 shellenv
-sponsors
 style
 tap
 tap-info
@@ -103,6 +104,7 @@ update-license-data
 update-maintainers
 update-python-resources
 update-reset
+update-sponsors
 update-test
 upgrade
 uses
